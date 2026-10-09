@@ -1,3 +1,10 @@
 spring:
   application:
     name: messenger
+  liquibase:
+    change-log: classpath:/db/changelog/changelog-master.yaml
+  datasource:
+      url: jdbc:postgresql://localhost:5432/messenger
+      username: postgres
+      password: 6881
+      driver-class-name: org.postgresql.Driver
