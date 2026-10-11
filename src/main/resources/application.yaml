@@ -8,3 +8,5 @@ spring:
       username: postgres
       password: 6881
       driver-class-name: org.postgresql.Driver
+server:
+  port: 333

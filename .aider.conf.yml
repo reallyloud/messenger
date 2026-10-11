@@ -1,0 +1,3 @@
+model: openrouter/nvidia/nemotron-3-ultra-550b-a55b:free
+no-auto-commits: true
+dry-run: true  # если хотите вообще запретить изменения

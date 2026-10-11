@@ -1,3 +1,11 @@
 databaseChangeLog:
   - include:
-      file: db/changelog/init/CREATE_TABLE_MESSAGE.sql
+      file: db/changelog/init/001_CREATE_TABLE_USERS.sql
+  - include:
+      file: db/changelog/init/002_CREATE_TABLE_CHATS.sql
+  - include:
+      file: db/changelog/init/003_CREATE_TABLE_CHATMEMBERS.sql
+  - include:
+      file: db/changelog/init/004_CREATE_TABLE_MESSAGE.sql
+  - include:
+      file: db/changelog/changes/005_ADD_INDEX_MESSAGES.sql
